@@ -1,4 +1,2 @@
 .env
 __MACOSX/
-Dockerfile
-cloudmart-frontend.yaml
