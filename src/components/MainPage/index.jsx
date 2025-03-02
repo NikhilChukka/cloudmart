@@ -60,7 +60,7 @@ const CloudMartMainPage = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await api.get("/products");
+        const response = await api.get("/products1");
         setProducts(response.data);
         setLoading(false);
       } catch (err) {
